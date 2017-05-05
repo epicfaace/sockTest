@@ -2,7 +2,7 @@ var app = require('http').createServer(handler)
   , io = require('socket.io').listen(app)
   , fs = require('fs')
 
-app.listen(90);
+app.listen(process.env.PORT || 90);
 console.log("Please open localhost:90 in your browser.");
 var currentdate=new Date();
 var lastUpdate=  currentdate.getFullYear() + " @ "  
