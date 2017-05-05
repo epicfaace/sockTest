@@ -3,6 +3,7 @@ var app = require('http').createServer(handler)
   , fs = require('fs')
 
 app.listen(90);
+console.log("Please open localhost:90 in your browser.");
 var currentdate=new Date();
 var lastUpdate=  currentdate.getFullYear() + " @ "  
                 + currentdate.getHours() + ":"  

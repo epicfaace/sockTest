@@ -1,0 +1,20 @@
+{
+  "name": "sockTest",
+  "version": "1.0.0",
+  "description": "SockTest!",
+  "homepage": "http://epicfaace.azurewebsites.net",
+  "keywords": [
+    "sockets",
+    "education"
+  ],
+  "author": {
+    "name": "Ashwin Ramaswami",
+    "email": "ashwin@outplayedapps.com",
+    "url": "http://outplayedapps.com"
+  },
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  },
+  "scripts":
+  { "start" : "node app.js" }
+}
